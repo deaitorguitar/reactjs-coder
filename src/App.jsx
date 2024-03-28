@@ -1,20 +1,17 @@
-import Footer from "./Footer.jsx" 
+import { Footer } from "./components/layout/footer/Footer";
+import { Navbar } from "./components/layout/navbar/Navbar";
+import { ItemListContainer } from "./components/pages/itemlistcontainer/ItemListContainer";
+
 
 
 function App() {
-
-  let nombre = "Aitor"
-
-  const sumar = ()=>{
-    console.log( 5 + 2 )
-  }
-
-  return <div>
-      <h1>Hola {nombre}</h1>
-      <button onClick={sumar}>Sumar</button>
+  return (
+    <div>
+      <Navbar />
+      <ItemListContainer />
       <Footer />
-  </div>
-  
+    </div>
+  );
 }
 
-export default App
+export default App;
