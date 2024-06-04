@@ -8,14 +8,15 @@ export const Navbar = () => {
       <>
         <div className="containerNavbar">
           <Link to="/" style={{ color: "beige" }}>
-            Little Brownie Box BA
+            <img src="https://res.cloudinary.com/dbxindkgw/image/upload/v1717501017/Icono-galeria_dfzv6g.jpg" alt="" className="containerimgNavbar"/>
           </Link>
           <ul className="categories">
             <Link to="/">Todo</Link>
             <Link to="/category/otros">Otros</Link>
             <Link to="/category/brownies">Brownies</Link>
+            <Link to="/category/galletas">Galletas</Link>
           </ul>
-          <CartWidget />
+          <CartWidget />  
 
         </div>
       </>

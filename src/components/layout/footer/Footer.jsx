@@ -9,13 +9,13 @@ export const Footer = () => {
             <h4>Secciones</h4>
             <ul>
               <li>
-                <a href="./pages/nosotros.html">Sobre nosotras</a>
+                <a href="">Sobre nosotras</a>
               </li>
               <li>
-                <a href="./pages/contacto.html">Contacto</a>
+                <a href="">Contacto</a>
               </li>
               <li>
-                <a href="./pages/Preguntas-frecuentes.html">
+                <a href="">
                   Preguntas frecuentes
                 </a>
               </li>

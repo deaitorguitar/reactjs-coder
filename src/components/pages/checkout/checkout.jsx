@@ -48,7 +48,7 @@ export const Checkout = () => {
   return (
     <div style={{ padding: "100px" }}>
       {orderId ? (
-        <h1>su id es: {orderId} :D <Link to="/Layout"><Button variant="contained">Seguir comprando</Button></Link></h1>
+        <h1>su id es: {orderId}, Gracias por confiar en nosotros! :D</h1>
       ) : (
         <form onSubmit={handleSubmit}>
           <TextField

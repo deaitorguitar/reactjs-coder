@@ -3,7 +3,7 @@
   height: 10vh;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(94, 61, 23);
+  background-color: rgb(68, 40, 5);
   align-items: center;
   padding: 10px;
 }
@@ -36,4 +36,8 @@ li {
 }
 .categories a:hover {
   background-color: rgb(206, 206, 198);
+}
+
+.containerimgNavbar{
+  height: 80px;
 }

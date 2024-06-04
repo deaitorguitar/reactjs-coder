@@ -1,8 +1,17 @@
-# React + Vite
+# Mi ecommerce-Little Brownie Box BA
+### Este es un ecommerce de brownies y otros dulces.
+#### Las herramientas utilizadas son:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-MUI
+-React JS
+-Javascript
+-Visual Studio Code
 
-Currently, two official plugins are available:
+![](https://res.cloudinary.com/dbxindkgw/image/upload/v1717500351/Portada-index_miqvl1.jpg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+https://github.com/deaitorguitar
+
+```
+
+[Mi Github](https://github.com/deaitorguitar)
