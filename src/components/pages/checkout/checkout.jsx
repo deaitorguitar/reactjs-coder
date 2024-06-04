@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 
 export const Checkout = () => {
   const { cart, getTotalPrice, clearCart } = useContext(CartContext);
-  console.log(cart);
 
   const [orderId, setOrderId] = useState(null);
 
