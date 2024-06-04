@@ -1,0 +1,45 @@
+footer{
+    border-top: 1px solid white;
+    background-color: rgb(77, 43, 5);
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.footer-end {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.footer-todo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20rem;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    h4, p {
+        font-size: 1.3rem;
+        text-decoration: underline;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+
+}
+
+
+.footer-secciones,
+.footer-redes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-redes ul li a i {
+    font-size: 1.3rem;
+    padding: 1rem;
+}

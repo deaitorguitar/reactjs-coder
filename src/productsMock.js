@@ -3,10 +3,10 @@ export let products = [
         id: 1,
         title: "40 porciones de brownie",
         price: 15000,
-        description: "Riquisimos, 100% fabricados a mano",
-        img: "https://res.cloudinary.com/dbxindkgw/image/upload/v1713905561/Minibrownies-40_dydnsb.jpg",
         stock: 12,
-        category: "brownies"
+        description: "Riquisimos, 100% fabricados a mano",
+        category: "brownies",
+        img: "https://res.cloudinary.com/dbxindkgw/image/upload/v1713905561/Minibrownies-40_dydnsb.jpg"
     },
     {
         id: 2,

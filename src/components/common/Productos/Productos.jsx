@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const ProductCard = ({ title, description, price, img, id }) => {
   return (
-    <Card sx={{ width: 345 }}>
+    <Card sx={{ width: 345, gap: "200px" }}>
       <CardMedia sx={{ height: 140 }} image={img} title="green iguana" />
 
       <CardContent>
@@ -33,4 +33,6 @@ const ProductCard = ({ title, description, price, img, id }) => {
   );
 };
 
+
 export default ProductCard;
+
